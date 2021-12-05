@@ -1,7 +1,7 @@
 ;SetMouseDelay, 0
 ;SetDefaultMouseSpeed, 0
 	
-~5::
+~4::
 	If posList.MaxIndex() > 0 {
 		mainX := posList[1].x
         mainY := posList[1].y
@@ -24,7 +24,7 @@
     }
     Return
 	
-~6::
+~5::
 	If posList.MaxIndex() > 0 {
 		mainX := posList[1].x
         mainY := posList[1].y
